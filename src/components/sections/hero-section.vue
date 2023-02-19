@@ -17,9 +17,8 @@
     <div class="hero-section__block">
       <h2 class="hero-section__title">Свежая выпечка</h2>
       <p class="hero-section__description">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been the industry's standard dummy text ever since the
       </p>
       <div class="hero-section__actions">
         <a class="hero-section__actions__link" href="#">Подробнее</a>
@@ -50,7 +49,7 @@
   display: flex;
   flex-direction: column;
   color: white;
-  background-image: url("bg.png");
+  background-image: url('bg.png');
   background-position: -5%;
   background-repeat: repeat;
 
@@ -60,7 +59,7 @@
     position: relative;
 
     &:before {
-      content: "";
+      content: '';
       position: absolute;
       top: 0;
       left: 0;
@@ -92,7 +91,7 @@
     }
 
     &__name {
-      font-family: "Sen", sans-serif;
+      font-family: 'Sen', sans-serif;
       font-weight: 700;
       font-size: 28px;
       width: 170px;
@@ -107,17 +106,13 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-image: radial-gradient(
-      50% 50% at 50% 50%,
-      #f2a850 0%,
-      rgba(228, 166, 92, 0) 100%
-    );
+    background-image: radial-gradient(50% 50% at 50% 50%, #f2a850 0%, rgba(228, 166, 92, 0) 100%);
     background-position: right center;
   }
 
   &__title {
     max-width: 620px;
-    font-family: "Sen", sans-serif;
+    font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 54px;
@@ -127,7 +122,7 @@
 
   &__description {
     max-width: 550px;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -144,7 +139,7 @@
       background-color: var(--color-light-orange);
       padding: 16px 50px;
       border-radius: 30px;
-      font-family: "Sen", sans-serif;
+      font-family: 'Sen', sans-serif;
       font-weight: 900;
       font-size: 18px;
       line-height: 24px;
@@ -181,7 +176,7 @@
       flex-direction: column-reverse;
 
       &__list {
-        font-family: "Nunito", sans-serif;
+        font-family: 'Nunito', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
