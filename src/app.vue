@@ -5,5 +5,3 @@ import HeroSection from '~~/src/components/sections/hero-section.vue'
 <template>
   <hero-section />
 </template>
-
-<style lang="scss"></style>

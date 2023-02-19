@@ -9,10 +9,10 @@
       width="666"
       height="413"
     />
-    <div class="hero-section__logo">
+    <a class="hero-section__logo" href="#">
       <nuxt-icon class="hero-section__logo__icon" name="logo" />
       <h1 class="hero-section__logo__name">Хлеб & Печь</h1>
-    </div>
+    </a>
 
     <div class="hero-section__block">
       <h2 class="hero-section__title">Свежая выпечка</h2>
@@ -58,7 +58,7 @@
   &__contacts__info {
     position: relative;
 
-    &:before {
+    &::before {
       content: '';
       position: absolute;
       top: 0;
@@ -80,18 +80,21 @@
 
   &__logo {
     width: 65%;
+    padding-top: 24px;
     padding-left: var(--wrapper);
     position: relative;
     display: flex;
     gap: 16px;
     align-items: center;
+    text-decoration: none;
+    color: #fff;
 
     &__icon {
       font-size: 52px;
     }
 
     &__name {
-      font-family: 'Sen', sans-serif;
+      font-family: Sen, sans-serif;
       font-weight: 700;
       font-size: 28px;
       width: 170px;
@@ -102,17 +105,17 @@
 
   &__block {
     width: 65%;
-    padding: 200px 0 166px var(--wrapper);
+    padding: 200px 0 142px var(--wrapper);
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-image: radial-gradient(50% 50% at 50% 50%, #f2a850 0%, rgba(228, 166, 92, 0) 100%);
+    background-image: radial-gradient(50% 50% at 50% 50%, #f2a850 0%, rgb(228 166 92 / 0%) 100%);
     background-position: right center;
   }
 
   &__title {
     max-width: 620px;
-    font-family: 'Sen', sans-serif;
+    font-family: Sen, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 54px;
@@ -122,7 +125,7 @@
 
   &__description {
     max-width: 550px;
-    font-family: 'Nunito', sans-serif;
+    font-family: Nunito, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -135,11 +138,11 @@
 
     &__link {
       display: inline-flex;
-      color: #ffffff;
+      color: #fff;
       background-color: var(--color-light-orange);
       padding: 16px 50px;
       border-radius: 30px;
-      font-family: 'Sen', sans-serif;
+      font-family: Sen, sans-serif;
       font-weight: 900;
       font-size: 18px;
       line-height: 24px;
@@ -176,19 +179,19 @@
       flex-direction: column-reverse;
 
       &__list {
-        font-family: 'Nunito', sans-serif;
+        font-family: Nunito, sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.44;
-        color: #ffffff;
+        color: #fff;
         list-style: none;
 
         & > li {
           a {
             font-weight: 500;
             letter-spacing: 0.15em;
-            color: #ffffff;
+            color: #fff;
             text-decoration: none;
           }
         }
